@@ -15,3 +15,12 @@ Lista em ordem alfabética.
 | [![Runrun.it](https://github.com/lucascaton/empresas-brasileiras-usando-ruby-on-rails/blob/master/companies/runrun-it.png)](https://runrun.it/pt-BR)                       | [vagas@runrun.it](mailto:vagas@runrun.it)                                        |       | São Paulo-SP                                                                                                                                                             |         |
 | [![Smart Fit](https://github.com/lucascaton/empresas-brasileiras-usando-ruby-on-rails/blob/master/companies/smart-fit.png)](https://www.smartfit.com.br)                   | [smartfit.com.br/trabalhe-conosco](https://www.smartfit.com.br/trabalhe-conosco) |       | São Paulo-SP                                                                                                                                                             |         |
 | [![Vagas.com](https://github.com/lucascaton/empresas-brasileiras-usando-ruby-on-rails/blob/master/companies/vagas.png)](https://www.vagas.com.br)                          | [vagas.com.br/trabalhe-conosco](https://www.vagas.com.br/trabalhe-conosco)       |       | São Paulo-SP                                                                                                                                                             |         |
+
+---
+
+## Como adicionar ou atualizar informações?
+
+Abra um [Pull Request](https://github.com/lucascaton/empresas-brasileiras-usando-ruby-on-rails/pulls) com as alterações
+ou crie uma [issue](https://github.com/lucascaton/empresas-brasileiras-usando-ruby-on-rails/issues/new).
+
+Obrigado pela contribuição! 👊
