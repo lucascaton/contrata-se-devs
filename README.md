@@ -21,6 +21,12 @@ Lista em ordem alfabética.
 ## Como adicionar ou atualizar informações?
 
 Abra um [Pull Request](https://github.com/lucascaton/empresas-brasileiras-usando-ruby-on-rails/pulls) com as alterações
-ou crie uma [issue](https://github.com/lucascaton/empresas-brasileiras-usando-ruby-on-rails/issues/new).
+ou crie uma [issue](https://github.com/lucascaton/empresas-brasileiras-usando-ruby-on-rails/issues/new). Por favor, inclua:
+
+* O logo da empresa (imagem deve ter resolução `200 x 40`) e fundo transparente
+* Um link (no logo) para o site da empresa
+* As outras colunas são opcionais, mas quanto mais informações adicionarmos, melhor :)
+
+Geralmente é mais fácil copiar um item da lista e modificar as informações.
 
 Obrigado pela contribuição! 👊
