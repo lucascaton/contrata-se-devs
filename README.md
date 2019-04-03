@@ -21,12 +21,12 @@ Lista em ordem alfabética.
 
 ## Como adicionar ou atualizar informações?
 
-Abra um [Pull Request](https://github.com/lucascaton/empresas-brasileiras-usando-ruby/pulls) com as alterações
-ou crie uma [issue](https://github.com/lucascaton/empresas-brasileiras-usando-ruby/issues/new). Por favor, inclua:
+Abra um [Pull Request](https://github.com/lucascaton/empresas-brasileiras-usando-ruby/pulls)
+adicionando/atualizanndo as informações. Por favor, inclua:
 
-* O logo da empresa (imagem deve ter resolução `200 x 40`) e fundo transparente
-* Um link (no logo) para o site da empresa
-* As outras colunas são opcionais, mas quanto mais informações adicionarmos, melhor :)
+* O logo da empresa. Imagem deve ter resolução **200px x 40px** e ter preferencialmente **fundo transparente**;
+* Um link (no logo) para o site da empresa;
+* As outras colunas são opcionais, mas quanto mais informações adicionarmos, melhor! :)
 
 Geralmente é mais fácil copiar um item da lista e modificar as informações.
 
