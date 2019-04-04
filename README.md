@@ -20,6 +20,7 @@ Lista em ordem alfabética.
 | [![Runrun.it](/companies/runrun-it.png?raw=true)](https://runrun.it/pt-BR)                       | [vagas@runrun.it](mailto:vagas@runrun.it)                                        |       | São Paulo-SP                                                                                                                                                             |         |
 | [![Smart Fit](/companies/smart-fit.png?raw=true)](https://www.smartfit.com.br)                   | [smartfit.com.br/trabalhe-conosco](https://www.smartfit.com.br/trabalhe-conosco) |       | São Paulo-SP                                                                                                                                                             |         |
 | [![Vagas.com](/companies/vagas.png?raw=true)](https://www.vagas.com.br)                          | [vagas.com.br/trabalhe-conosco](https://www.vagas.com.br/trabalhe-conosco)       |       | São Paulo-SP                                                                                                                                                             |         |
+| [![Siedos](/companies/siedos.png?raw=true)](http://siedos.com.br)                                | [contato@siedos.com.br](mailto:contato@siedos.com.br)                            |       | Goiania-GO                                                                                                                                                               |         |
 
 ---
 
