@@ -20,6 +20,7 @@ Lista em ordem alfabética.
 | [![Runrun.it](/companies/runrun-it.png?raw=true)](https://runrun.it/pt-BR)                       | [vagas@runrun.it](mailto:vagas@runrun.it)                                        |       | São Paulo-SP                                                                                                                                                             |         |
 | [![Smart Fit](/companies/smart-fit.png?raw=true)](https://www.smartfit.com.br)                   | [smartfit.com.br/trabalhe-conosco](https://www.smartfit.com.br/trabalhe-conosco) |       | São Paulo-SP                                                                                                                                                             |         |
 | [![Vagas.com](/companies/vagas.png?raw=true)](https://www.vagas.com.br)                          | [vagas.com.br/trabalhe-conosco](https://www.vagas.com.br/trabalhe-conosco)       |       | São Paulo-SP                                                                                                                                                             |         |
+| [![Yubb](/companies/yubb.png?raw=true)](https://yubb.com.br)                                     | [vagas@yubb.com.br](mailto:vagas@yubb.com.br)                                    | ~3    | São Paulo-SP<br>Ariquemes-RO                                                                                                                                             | ✓       |
 
 ---
 
