@@ -20,6 +20,7 @@ Lista em ordem alfabética.
 | [![Runrun.it](/companies/runrun-it.png?raw=true)](https://runrun.it/pt-BR)                       | [vagas@runrun.it](mailto:vagas@runrun.it)                                        |       | São Paulo-SP                                                                                                                                                             |         |
 | [![Smart Fit](/companies/smart-fit.png?raw=true)](https://www.smartfit.com.br)                   | [smartfit.com.br/trabalhe-conosco](https://www.smartfit.com.br/trabalhe-conosco) |       | São Paulo-SP                                                                                                                                                             |         |
 | [![Vagas.com](/companies/vagas.png?raw=true)](https://www.vagas.com.br)                          | [vagas.com.br/trabalhe-conosco](https://www.vagas.com.br/trabalhe-conosco)       |       | São Paulo-SP                                                                                                                                                             |         |
+| [![SGC - Tempo Telecom](/companies/tempo-telecom.png?raw=true)](https://sgc.accelular.com.br/)   | [contato@tempotelecom.com.br](mailto:contato@tempotelecom.com.br)                |       | Anápolis-GO                                                                                                                                                              |         |
 
 ---
 
