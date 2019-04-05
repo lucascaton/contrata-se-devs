@@ -22,6 +22,7 @@ Lista em ordem alfabética.
 | [![Smart Fit](/companies/smart-fit.png?raw=true)](https://www.smartfit.com.br)                   | [smartfit.com.br/trabalhe-conosco](https://www.smartfit.com.br/trabalhe-conosco) |       | São Paulo-SP                                                                                                                                                             |         |
 | [![Telgo](/companies/telgo.png?raw=true)](https://telgo.com.br)                                  | [telgo.com.br/trabalhe-conosco/](https://telgo.com.br/trabalhe-conosco)          |       | Anápolis-GO                                                                                                                                                              |         |
 | [![Vagas.com](/companies/vagas.png?raw=true)](https://www.vagas.com.br)                          | [vagas.com.br/trabalhe-conosco](https://www.vagas.com.br/trabalhe-conosco)       |       | São Paulo-SP                                                                                                                                                             |         |
+| [![SGC - Tempo Telecom](/companies/tempo-telecom.png?raw=true)](https://sgc.accelular.com.br/)   | [contato@tempotelecom.com.br](mailto:contato@tempotelecom.com.br)                |       | Anápolis-GO                                                                                                                                                              |         |
 
 ---
 
