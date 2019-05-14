@@ -37,7 +37,7 @@ Lista em ordem alfabética.
 ## Como adicionar ou atualizar informações?
 
 Abra um [Pull Request](https://github.com/lucascaton/empresas-brasileiras-usando-ruby/pulls)
-adicionando/atualizanndo as informações. Por favor, inclua:
+adicionando/atualizando as informações. Por favor, inclua:
 
 * O logo da empresa. Imagem deve ter resolução **200px x 40px** e ter preferencialmente **fundo transparente**;
 * Um link (no logo) para o site da empresa;
