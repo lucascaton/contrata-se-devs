@@ -31,6 +31,8 @@ Lista em ordem alfabética.
 | [![TudoGostoso](/companies/tudogostoso.png?raw=true)](https://www.tudogostoso.com.br)            | [Vagas (GitHub)](https://github.com/tdginternet/vagas/issues)                    | 5     | Rio de Janeiro-RJ                                                                                                                                                                              | ✕       |
 | [![Vagas.com](/companies/vagas.png?raw=true)](https://www.vagas.com.br)                          | [vagas.com.br/trabalhe-conosco](https://www.vagas.com.br/trabalhe-conosco)       | ~20   | São Paulo-SP                                                                                                                                                                                   |         |
 | [![Yubb](/companies/yubb.png?raw=true)](https://yubb.com.br)                                     | [vagas@yubb.com.br](mailto:vagas@yubb.com.br)                                    | ~3    | São Paulo-SP<br>Ariquemes-RO                                                                                                                                                                   | ✓       |
+| [![Zygo](/companies/zygo.png?raw=true)](https://www.zygotecnologia.com)                                     | [vagas](https://jobs.kenoby.com/zygo)                                    | ~20   | Florianópolis-SC                                                                                                                                                                   | X       |
+
 
 ---
 
