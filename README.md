@@ -44,7 +44,7 @@ Lista em ordem alfabética.
 
 ---
 
-## Como adicionar ou atualizar informações?\
+## Como adicionar ou atualizar informações?
 
 
 Abra um [Pull Request](https://github.com/lucascaton/empresas-brasileiras-usando-ruby/pulls)
