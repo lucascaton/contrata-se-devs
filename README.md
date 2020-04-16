@@ -47,7 +47,6 @@ Lista em ordem alfabética.
 | [![Yubb](/companies/yubb.png?raw=true)](https://yubb.com.br)                                            | [vagas@yubb.com.br](mailto:vagas@yubb.com.br)                                              | ~3    | São Paulo-SP<br>Ariquemes-RO                                                                                                                                                                   | ✔       |
 | [![Zygo](/companies/zygo.png?raw=true)](https://www.zygotecnologia.com)                                 | [vagas](https://jobs.kenoby.com/zygo)                                                      | ~20   | Florianópolis-SC                                                                                                                                                                               | ✕       |
 
-
 ---
 
 ## Como adicionar ou atualizar informações?
