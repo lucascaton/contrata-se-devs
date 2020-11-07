@@ -31,7 +31,8 @@ Geralmente é mais fácil duplicar um item existente e modificar as informaçõe
 
 ### Outras contribuições são bem-vindas, como alterações de design?
 
-Com certeza! Porém, se você for fazer uma alteração muito significative, crie uma _issue_ antes
-para distucirmos a viabilidade, ok?
+Com certeza! Porém, se você for fazer uma alteração significativa, crie uma
+[_issue_](https://github.com/lucascaton/contrata-se-devs/issues) antes para discutírmos a
+viabilidade, ok?
 
 Obrigado pela contribuição! 👊
