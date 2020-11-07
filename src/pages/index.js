@@ -1,5 +1,9 @@
 import Head from "next/head";
 
+import Company from "src/components/Company";
+
+import companies from "src/data/companies";
+
 export default function Home() {
   return (
     <>
@@ -19,7 +23,15 @@ export default function Home() {
       </header>
 
       <main className="bg-gradient-to-r from-blue-500 to-pink-500">
-        <div className="lg:container mx-auto px-2"></div>
+        <div className="lg:container mx-auto px-2">
+          <div className="py-4 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
+            {companies
+              .sort((a, b) => (a.slug > b.slug ? 1 : -1))
+              .map((company) => (
+                <Company {...company} />
+              ))}
+          </div>
+        </div>
       </main>
 
       <footer className="py-6 px-4 bg-gradient-to-r from-blue-600 to-pink-600 shadow-lga text-white">
