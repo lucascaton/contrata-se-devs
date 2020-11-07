@@ -28,7 +28,7 @@ export default function Home() {
             {companies
               .sort((a, b) => (a.slug > b.slug ? 1 : -1))
               .map((company) => (
-                <Company {...company} />
+                <Company key={company.slug} {...company} />
               ))}
           </div>
         </div>
