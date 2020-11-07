@@ -10,7 +10,7 @@ const Company = ({
   locations,
   remote,
 }) => (
-  <div key={slug} className="rounded bg-gray-100 shadow-lg">
+  <div className="rounded bg-gray-100 shadow-lg">
     <div className="p-4 bg-white rounded-t">
       <a href={url} target="_blank">
         <img
@@ -35,7 +35,7 @@ const Company = ({
           <h4 className="font-bold">Stack de tecnologias:</h4>
 
           {stack.map((tech) => (
-            <p>{tech}</p>
+            <p key={tech}>{tech}</p>
           ))}
         </div>
 
@@ -43,7 +43,7 @@ const Company = ({
           <h4 className="font-bold">Localização:</h4>
 
           {locations.map((location) => (
-            <p>{location}</p>
+            <p key={location}>{location}</p>
           ))}
         </div>
       </div>
