@@ -4,6 +4,10 @@ Lista de empresas que estão contratando programadores/desenvolvidores de softwa
 
 ## 🔗 https://contrata-se-devs.lucascaton.com.br/
 
+![Logo do projeto](https://raw.github.com/lucascaton/contrata-se-devs/main/public/images/contrata-se-devs.jpg)
+
+## 🔗 https://contrata-se-devs.lucascaton.com.br/
+
 ## Sobre o projeto
 
 Esse site foi criado por [Lucas Caton](https://www.lucascaton.com.br/) com o objetivo de ajudar
