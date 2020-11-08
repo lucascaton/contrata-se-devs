@@ -14,6 +14,19 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap"
           rel="stylesheet"
         ></link>
+
+        <meta property="og:title" content="Contrata-se devs" />
+        <meta property="og:image" content="/images/contrata-se-devs.jpg" />
+        <meta
+          name="description"
+          content='Lista de empresas que estão contratando programadores/desenvolvidores de software (aka. "devs").'
+        />
+        <meta
+          property="og:description"
+          content='Lista de empresas que estão contratando programadores/desenvolvidores de software (aka. "devs").'
+        />
+        <link rel="canonical" href="https://contrata-se-devs.lucascaton.com.br/" />
+        <meta property="og:url" content="https://contrata-se-devs.lucascaton.com.br/" />
       </Head>
 
       <header className="py-6 bg-gradient-to-r from-blue-600 to-pink-600 text-2xl font-extrabold text-white">
