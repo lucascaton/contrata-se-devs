@@ -344,6 +344,17 @@
     "locations": ["São Paulo-SP"],
     "remote": "Parcial"
   }, {
+    "slug": "petbooking",
+    "name": "Pet Booking",
+    "url": "https://petbooking.com.br",
+    "stack": ["Ruby", "Ruby on Rails"],
+    "open_roles_url": "https://github.com/PetBookingBrasil/jobs",
+    "application_url": null,
+    "application_via_email": "douglas@petbooking.com.br",
+    "number_of_employees": 5,
+    "locations": ["São Paulo-SP"],
+    "remote": "Sim"
+  }, {
     "slug": "plataformatec",
     "name": "Plataformatec",
     "url": "http://plataformatec.com.br",
