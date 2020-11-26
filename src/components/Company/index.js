@@ -1,3 +1,5 @@
+import { urlWithCampaignParams } from "src/utils";
+
 const Company = ({
   slug,
   name,
@@ -23,7 +25,11 @@ const Company = ({
 
     <div className="p-4 grid grid-cols-2 gap-4 rounded-b">
       <div>
-        <a href={url} target="_blank" className="mb-4 block underline text-lg font-bold">
+        <a
+          href={urlWithCampaignParams(url)}
+          target="_blank"
+          className="mb-4 block underline text-lg font-bold"
+        >
           {name}
         </a>
 
@@ -50,13 +56,21 @@ const Company = ({
 
       <div className="text-right">
         {open_roles_url && (
-          <a href={open_roles_url} target="_blank" className="block underline font-bold">
+          <a
+            href={urlWithCampaignParams(open_roles_url)}
+            target="_blank"
+            className="block underline font-bold"
+          >
             Vagas abertas
           </a>
         )}
 
         {application_url && (
-          <a href={application_url} target="_blank" className="block underline font-bold">
+          <a
+            href={urlWithCampaignParams(application_url)}
+            target="_blank"
+            className="block underline font-bold"
+          >
             Me canditadar via site
           </a>
         )}
