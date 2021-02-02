@@ -10,8 +10,10 @@ Lista de empresas que estão contratando programadores/desenvolvidores de softwa
 
 ## Sobre o projeto
 
-Esse site foi criado por [Lucas Caton](https://www.lucascaton.com.br/) com o objetivo de ajudar
-desenvolvedores a encontrem vagas abertas de programação.
+O objetivo desse site é:
+
+- Ajudar desenvolvedores a encontrem vagas de programação
+- Ajudar empresas a listarem suas vagas e contratarem pessoas
 
 ## Como o site é construído
 
