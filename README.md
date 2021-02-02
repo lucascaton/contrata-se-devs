@@ -18,7 +18,7 @@ O objetivo desse site é:
 ## Como o site é construído
 
 Esse projeto usa [Next.js](https://nextjs.org/). Para rodá-lo localmente, clone o repositório,
-instale as dependências usando `yarn isntall` e rode o servidor: `yarn dev`.
+instale as dependências usando `yarn install` e rode o servidor: `yarn dev`.
 Aí basta acessar [http://localhost:3000](http://localhost:3000).
 
 ## Contribuíndo
