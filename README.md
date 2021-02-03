@@ -1,6 +1,6 @@
 # Contrata-se devs
 
-Lista de empresas que estão contratando programadores/desenvolvidores de software (aka. "devs").
+Lista de empresas que estão contratando programadores/desenvolvedores de software (aka. "devs").
 
 ## 🔗 https://contrata-se-devs.lucascaton.com.br/
 
