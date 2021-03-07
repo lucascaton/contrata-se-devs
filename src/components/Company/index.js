@@ -79,11 +79,11 @@ const Company = ({
 
         {application_via_email && (
           <a
-            href={`mailto:${application_via_email}`}
+            href={`mailto:${application_via_email}?subject=Interesse+em+vaga+da+${name}&body=Olá,%0D%0A%0D%0AFiquei sabendo através do site https://contrata-se-devs.lucascaton.com.br que vocês têm vagas disponíveis para programadores e gostaria de saber mais informações.%0D%0A%0D%0AObrigado!`}
             target="_blank"
             className="block underline font-bold"
           >
-            Me canditadar via email
+            Contato por email
           </a>
         )}
       </div>
