@@ -1,6 +1,8 @@
 import Head from "next/head";
 
+import Header from "src/components/Header";
 import Company from "src/components/Company";
+import Footer from "src/components/Footer";
 
 import companies from "src/data/companies";
 
@@ -19,53 +21,39 @@ export default function Home() {
         <meta property="og:image" content="/images/contrata-se-devs.jpg" />
         <meta
           name="description"
-          content='Lista de empresas que estão contratando programadores/desenvolvidores de software (aka. "devs").'
+          content="Projeto para ajudar desenvolvedores a encontrem vagas de programação e ajudar empresas a divulgarem vagas abertas."
         />
         <meta
           property="og:description"
-          content='Lista de empresas que estão contratando programadores/desenvolvidores de software (aka. "devs").'
+          content="Projeto para ajudar desenvolvedores a encontrem vagas de programação e ajudar empresas a divulgarem vagas abertas."
         />
-        <link rel="canonical" href="https://contrata-se-devs.lucascaton.com.br/" />
-        <meta property="og:url" content="https://contrata-se-devs.lucascaton.com.br/" />
+        <link
+          rel="canonical"
+          href="https://contrata-se-devs.lucascaton.com.br/"
+        />
+        <meta
+          property="og:url"
+          content="https://contrata-se-devs.lucascaton.com.br/"
+        />
       </Head>
 
-      <header className="py-6 bg-gradient-to-r from-blue-600 to-pink-600 text-2xl font-extrabold text-white">
-        <div className="lg:container mx-auto text-center lg:text-left">
-          <h1>Contrata-se devs</h1>
-        </div>
-      </header>
+      <div className="bg-gradient-to-r from-blue-500 to-pink-500">
+        <div className="px-2 lg:px-0 lg:container mx-auto">
+          <Header />
 
-      <main className="bg-gradient-to-r from-blue-500 to-pink-500">
-        <div className="lg:container mx-auto px-2">
-          <div className="py-4 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
-            {companies
-              .sort((a, b) => (a.slug > b.slug ? 1 : -1))
-              .map((company) => (
-                <Company key={company.slug} {...company} />
-              ))}
-          </div>
-        </div>
-      </main>
+          <main>
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
+              {companies
+                .sort((a, b) => (a.slug > b.slug ? 1 : -1))
+                .map((company) => (
+                  <Company key={company.slug} {...company} />
+                ))}
+            </div>
+          </main>
 
-      <footer className="py-6 px-4 bg-gradient-to-r from-blue-600 to-pink-600 shadow-lga text-white">
-        <div className="lg:container mx-auto text-center">
-          <p>
-            Esse site foi criado por{" "}
-            <a href="https://www.lucascaton.com.br/" target="_blank" className="underline">
-              Lucas Caton
-            </a>{" "}
-            e é open-source (
-            <a
-              href="https://github.com/lucascaton/contrata-se-devs"
-              target="_blank"
-              className="underline"
-            >
-              repositório no GitHub
-            </a>
-            ).
-          </p>
+          <Footer />
         </div>
-      </footer>
+      </div>
     </>
   );
 }
