@@ -278,6 +278,17 @@
     "locations": ["Recife-PE"],
     "remote": "Parcial"
   }, {
+    "slug": "husky",
+    "name": "Husky",
+    "url": "https://husky.io/",
+    "stack": ["Ruby", "Ruby on Rails"],
+    "open_roles_url": "https://husky.io/carreiras/",
+    "application_url": "https://data.husky.io/carreiras",
+    "application_via_email": "jobs@husky.io",
+    "number_of_employees": null,
+    "locations": ["São Paulo-SP"],
+    "remote": "Sim"
+  }, {
     "slug": "ignicao-digital",
     "name": "Ignição Digital",
     "url": "https://www.ignicaodigital.com.br",
