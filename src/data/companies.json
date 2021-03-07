@@ -124,7 +124,7 @@
     "slug": "codeminer",
     "name": "Codeminer 42",
     "url": "https://www.codeminer42.com",
-    "stack": ["Ruby", "Ruby on Rails"],
+    "stack": ["Ruby", "Ruby on Rails", "JavaScript", "Elixir"],
     "open_roles_url": "https://www.codeminer42.com/careers?locale=pt-BR",
     "application_url": null,
     "application_via_email": "become@codeminer42.com",
