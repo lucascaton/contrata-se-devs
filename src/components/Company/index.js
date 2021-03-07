@@ -14,7 +14,7 @@ const Company = ({
 }) => (
   <div className="rounded bg-gray-100 shadow-lg">
     <div className="p-4 bg-white rounded-t">
-      <a href={url} target="_blank">
+      <a href={urlWithCampaignParams(url)} target="_blank">
         <img
           src={`images/companies-logos/${slug}.png`}
           alt={`Logo da ${name}`}
