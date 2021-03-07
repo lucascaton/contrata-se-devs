@@ -45,13 +45,15 @@ const Company = ({
           ))}
         </div>
 
-        <div className="mt-2 pt-2 border-t">
-          <h4 className="font-bold">Localização:</h4>
+        {!!locations.length && (
+          <div className="mt-2 pt-2 border-t">
+            <h4 className="font-bold">Localização:</h4>
 
-          {locations.map((location) => (
-            <p key={location}>{location}</p>
-          ))}
-        </div>
+            {locations.map((location) => (
+              <p key={location}>{location}</p>
+            ))}
+          </div>
+        )}
       </div>
 
       <div className="text-right">

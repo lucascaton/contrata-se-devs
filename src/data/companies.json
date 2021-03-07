@@ -209,7 +209,7 @@
     "application_url": null,
     "application_via_email": null,
     "number_of_employees": "1",
-    "locations": [""],
+    "locations": [],
     "remote": "Sim"
   }, {
     "slug": "ebanx",
@@ -462,7 +462,7 @@
     "application_url": null,
     "application_via_email": "jobs@sourcelevel.io",
     "number_of_employees": "3",
-    "locations": [""],
+    "locations": [],
     "remote": "Sim"
   }, {
     "slug": "stefanini",
