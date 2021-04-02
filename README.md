@@ -32,7 +32,7 @@ adicionando/atualizando as informações no arquivo `companies.json`. Por favor,
 * O logo da empresa na pasta `public/images/companies-logos`. A imagem deve ter:
   * Nome do arquivo baseado no atributo `slug`, ex: `slug.png`
   * Resolução **200px x 40px**
-  * preferencialmente **fundo transparente**
+  * Preferencialmente **fundo transparente**
 * Algumas colunas são opcionais, mas quanto mais informações adicionarmos, melhor! :)
 
 Geralmente é mais fácil duplicar um item existente e modificar as informações.
