@@ -28,9 +28,11 @@ Aí basta acessar [http://localhost:3000](http://localhost:3000).
 Abra um [Pull Request](https://github.com/lucascaton/contrata-se-devs/pulls)
 adicionando/atualizando as informações no arquivo `companies.json`. Por favor, inclua:
 
-* O logo da empresa. A imagem deve ter resolução **200px x 40px** e ter preferencialmente
-  **fundo transparente**;
-* A URL do site da empresa;
+* A URL do site da empresa
+* O logo da empresa na pasta `public/images/companies-logos`. A imagem deve ter:
+  * Nome do arquivo baseado no atributo `slug`, ex: `slug.png`
+  * Resolução **200px x 40px**
+  * Preferencialmente **fundo transparente**
 * Algumas colunas são opcionais, mas quanto mais informações adicionarmos, melhor! :)
 
 Geralmente é mais fácil duplicar um item existente e modificar as informações.

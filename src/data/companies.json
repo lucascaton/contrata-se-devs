@@ -366,6 +366,17 @@
     "locations": ["São Paulo-SP"],
     "remote": "Sim"
   }, {
+    "slug": "pier-digital",
+    "name": "Pier.",
+    "url": "https://www.pier.digital",
+    "stack": ["Ruby", "Ruby on Rails", "Node.js", "Typescript", "Python"],
+    "open_roles_url": "https://jobs.lever.co/pier",
+    "application_url": "https://jobs.lever.co/pier",
+    "application_via_email": "gabriel.franzoni@pier.digital",
+    "number_of_employees": "~100",
+    "locations": ["São Paulo-SP"],
+    "remote": "Sim"
+  }, {
     "slug": "plataformatec",
     "name": "Plataformatec",
     "url": "http://plataformatec.com.br",
