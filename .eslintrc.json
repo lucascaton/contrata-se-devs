@@ -1,0 +1,33 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "airbnb",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:promise/recommended",
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["promise", "react-hooks", "react"],
+  "rules": {
+    "func-style": ["error", "expression"],
+
+    // Plugins
+
+    // "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/*.test.js", "**/*.test.jsx"]}],
+    "import/no-unresolved": "off", // TODO: remove this when migrating to TypeScript
+
+    "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
+    "react/prop-types": "off", // TODO: remove this when migrating to TypeScript
+    "react/react-in-jsx-scope": "off"
+  }
+}
