@@ -399,6 +399,30 @@
     "locations": ["Içara-SC"],
     "remote": "Sim"
   }, {
+      "slug": "portalsolar",
+      "name": "Portal Solar",
+      "url": "https://www.portalsolar.com.br/",
+      "stack": [
+        "Ruby",
+        "Ruby on Rails",
+        "React",
+        "React Native",
+        "PostgreSQL",
+        "HMTL",
+        "CSS",
+        "JavaScript",
+        "Git",
+        "Linux",
+        "Docker",
+        "AWS"
+      ],
+      "open_roles_url": "https://portalsolar.infojobs.com.br/MicrositeV2/Default3.aspx?ps=20&pn=1&imic=7354&ic=510007",
+      "application_url": "",
+      "application_via_email": null,
+      "number_of_employees": null,
+      "locations": ["São Paulo-SP"],
+      "remote": "Sim"
+    }, {
     "slug": "resultadosdigitais",
     "name": "Resultados Digitais",
     "url": "https://resultadosdigitais.com.br",
