@@ -5,8 +5,9 @@ const Footer = () => (
         Esse projeto e é open-source, você pode contribuir através{" "}
         <a
           href="https://github.com/lucascaton/contrata-se-devs"
-          target="_blank"
           className="underline"
+          target="_blank"
+          rel="noreferrer"
         >
           desse repositório no GitHub
         </a>

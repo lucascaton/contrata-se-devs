@@ -1,3 +1,5 @@
+/* eslint-disable import/prefer-default-export */
+
 export const urlWithCampaignParams = (url) => {
   const campaignParams = new URLSearchParams({
     utm_source: "contrata-se-devs.lucascaton.com.br",

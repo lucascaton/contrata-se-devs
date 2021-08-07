@@ -1,3 +1,6 @@
+// TODO: re-enable this ESLint rule when we update the data file to camelCase
+/* eslint-disable camelcase */
+
 import { urlWithCampaignParams } from "src/utils";
 
 const Company = ({
@@ -14,7 +17,7 @@ const Company = ({
 }) => (
   <div className="rounded bg-gray-100 shadow-lg">
     <div className="p-4 bg-white rounded-t">
-      <a href={urlWithCampaignParams(url)} target="_blank">
+      <a href={urlWithCampaignParams(url)} target="_blank" rel="noreferrer">
         <img
           src={`images/companies-logos/${slug}.png`}
           alt={`Logo da ${name}`}
@@ -27,8 +30,9 @@ const Company = ({
       <div>
         <a
           href={urlWithCampaignParams(url)}
-          target="_blank"
           className="mb-4 block underline text-lg font-bold"
+          target="_blank"
+          rel="noreferrer"
         >
           {name}
         </a>
@@ -60,8 +64,9 @@ const Company = ({
         {open_roles_url && (
           <a
             href={urlWithCampaignParams(open_roles_url)}
-            target="_blank"
             className="block underline font-bold"
+            target="_blank"
+            rel="noreferrer"
           >
             Vagas abertas
           </a>
@@ -70,8 +75,9 @@ const Company = ({
         {application_url && (
           <a
             href={urlWithCampaignParams(application_url)}
-            target="_blank"
             className="block underline font-bold"
+            target="_blank"
+            rel="noreferrer"
           >
             Me canditadar via site
           </a>
@@ -80,8 +86,9 @@ const Company = ({
         {application_via_email && (
           <a
             href={`mailto:${application_via_email}?subject=Interesse+em+vaga+da+${name}&body=Olá,%0D%0A%0D%0AFiquei sabendo através do site https://contrata-se-devs.lucascaton.com.br que vocês têm vagas disponíveis para programadores e gostaria de saber mais informações.%0D%0A%0D%0AObrigado!`}
-            target="_blank"
             className="block underline font-bold"
+            target="_blank"
+            rel="noreferrer"
           >
             Contato por email
           </a>

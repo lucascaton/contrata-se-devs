@@ -15,7 +15,7 @@ export default function Home() {
         <link
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap"
           rel="stylesheet"
-        ></link>
+        />
 
         <meta property="og:title" content="Contrata-se devs" />
         <meta property="og:image" content="/images/contrata-se-devs.jpg" />
@@ -46,6 +46,7 @@ export default function Home() {
               {companies
                 .sort((a, b) => (a.slug > b.slug ? 1 : -1))
                 .map((company) => (
+                  // eslint-disable-next-line react/jsx-props-no-spreading
                   <Company key={company.slug} {...company} />
                 ))}
             </div>
