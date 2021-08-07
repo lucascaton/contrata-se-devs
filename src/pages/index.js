@@ -7,8 +7,6 @@ import Footer from "src/components/Footer";
 import companies from "src/data/companies";
 
 export default function Home() {
-  INVALID_CODE;
-
   return (
     <>
       <Head>
