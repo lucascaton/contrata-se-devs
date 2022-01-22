@@ -1,9 +1,8 @@
 import Head from "next/head";
 
-import Header from "src/components/Header";
 import Company from "src/components/Company";
 import Footer from "src/components/Footer";
-
+import Header from "src/components/Header";
 import companies from "src/data/companies";
 
 export default function Home() {
@@ -11,12 +10,6 @@ export default function Home() {
     <>
       <Head>
         <title>Contrata-se devs</title>
-        <link rel="icon" href="/favicon.png" type="image/png" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap"
-          rel="stylesheet"
-        />
-
         <meta property="og:title" content="Contrata-se devs" />
         <meta property="og:image" content="/images/contrata-se-devs.jpg" />
         <meta

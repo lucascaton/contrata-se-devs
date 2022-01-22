@@ -5,10 +5,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint '**/*.{js,jsx}' --report-unused-disable-directives"
+    "lint": "next lint --report-unused-disable-directives error"
   },
   "dependencies": {
     "autoprefixer": "^10.4.2",
+    "eslint-config-prettier": "^8.3.0",
     "next": "12.0.8",
     "postcss": "^8.4.5",
     "postcss-import": "^14.0.2",
@@ -18,16 +19,12 @@
     "tailwindcss": "^3.0.15"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-next": "^11.1.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.24.1",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-promise": "^5.1.0",
+    "@next/eslint-plugin-next": "^12.0.8",
+    "eslint": "^8.7.0",
+    "eslint-config-next": "^12.0.8",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "prettier": "^2.3.2"
+    "eslint-plugin-react-hooks": "^4.3.0"
   }
 }

@@ -1,5 +1,4 @@
-// TODO: re-enable this ESLint rule when we update the data file to camelCase
-/* eslint-disable camelcase */
+import Image from "next/image";
 
 import { urlWithCampaignParams } from "src/utils";
 
@@ -18,10 +17,12 @@ const Company = ({
   <div className="rounded bg-gray-100 shadow-lg">
     <div className="p-4 bg-white rounded-t">
       <a href={urlWithCampaignParams(url)} target="_blank" rel="noreferrer">
-        <img
-          src={`images/companies-logos/${slug}.png`}
+        <Image
+          src={`/images/companies-logos/${slug}.png`}
           alt={`Logo da ${name}`}
           className="mx-auto p-2"
+          width={200}
+          height={40}
         />
       </a>
     </div>

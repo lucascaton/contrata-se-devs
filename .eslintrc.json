@@ -3,31 +3,73 @@
     "browser": true,
     "es2021": true
   },
-  "extends": [
-    "airbnb",
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
-    "plugin:promise/recommended",
-    "prettier"
-  ],
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "ecmaVersion": 12,
-    "sourceType": "module"
-  },
-  "plugins": ["promise", "react-hooks", "react"],
+  "extends": ["plugin:promise/recommended", "prettier", "next/core-web-vitals"],
+  "plugins": ["promise"],
   "rules": {
     "func-style": ["error", "expression"],
+    "no-console": "error",
 
     // Plugins
 
-    // "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/*.test.js", "**/*.test.jsx"]}],
-    "import/no-unresolved": "off", // TODO: remove this when migrating to TypeScript
+    // https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/issues/402#issuecomment-665994616
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": ["Link"],
+        "specialLink": ["hrefLeft", "hrefRight"],
+        "aspects": ["invalidHref", "preferButton"]
+      }
+    ],
 
-    "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
-    "react/prop-types": "off", // TODO: remove this when migrating to TypeScript
-    "react/react-in-jsx-scope": "off"
+    "import/extensions": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      { "devDependencies": ["**/*.test.js", "**/*.test.jsx"] }
+    ],
+
+    "import/order": [
+      "error",
+      {
+        "groups": ["builtin", "external", "parent", "sibling", "index"],
+        "pathGroups": [
+          {
+            "pattern": "react",
+            "group": "external",
+            "position": "before"
+          },
+          {
+            "pattern": "src/**",
+            "group": "parent",
+            "position": "before"
+          },
+          {
+            "pattern": "public/**",
+            "group": "parent",
+            "position": "before"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": ["react"],
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ],
+
+    "promise/always-return": "off",
+
+    "react/jsx-props-no-spreading": "error",
+    "react/no-danger": "error",
+    "react/jsx-filename-extension": [
+      "error",
+      { "extensions": [".js", ".jsx"] }
+    ],
+    "react/require-default-props": "off",
+    "react/self-closing-comp": ["error", { "component": true, "html": false }],
+    "react/jsx-no-target-blank": "error",
+
+    "react-hooks/exhaustive-deps": "error",
+    "react-hooks/rules-of-hooks": "error"
   }
 }
