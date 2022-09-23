@@ -3,34 +3,58 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["plugin:promise/recommended", "prettier", "next/core-web-vitals"],
-  "plugins": ["promise"],
+  "extends": [
+    "plugin:promise/recommended",
+    "prettier",
+    "next/core-web-vitals"
+  ],
+  "plugins": [
+    "promise"
+  ],
   "rules": {
-    "func-style": ["error", "expression"],
+    "func-style": [
+      "error",
+      "expression"
+    ],
     "no-console": "error",
-
     // Plugins
-
     // https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/issues/402#issuecomment-665994616
     "jsx-a11y/anchor-is-valid": [
       "error",
       {
-        "components": ["Link"],
-        "specialLink": ["hrefLeft", "hrefRight"],
-        "aspects": ["invalidHref", "preferButton"]
+        "components": [
+          "Link"
+        ],
+        "specialLink": [
+          "hrefLeft",
+          "hrefRight"
+        ],
+        "aspects": [
+          "invalidHref",
+          "preferButton"
+        ]
       }
     ],
-
     "import/extensions": "off",
     "import/no-extraneous-dependencies": [
       "error",
-      { "devDependencies": ["**/*.test.js", "**/*.test.jsx"] }
+      {
+        "devDependencies": [
+          "**/*.test.js",
+          "**/*.test.jsx"
+        ]
+      }
     ],
-
     "import/order": [
       "error",
       {
-        "groups": ["builtin", "external", "parent", "sibling", "index"],
+        "groups": [
+          "builtin",
+          "external",
+          "parent",
+          "sibling",
+          "index"
+        ],
         "pathGroups": [
           {
             "pattern": "react",
@@ -48,7 +72,9 @@
             "position": "before"
           }
         ],
-        "pathGroupsExcludedImportTypes": ["react"],
+        "pathGroupsExcludedImportTypes": [
+          "react"
+        ],
         "newlines-between": "always",
         "alphabetize": {
           "order": "asc",
@@ -56,19 +82,27 @@
         }
       }
     ],
-
     "promise/always-return": "off",
-
     "react/jsx-props-no-spreading": "error",
     "react/no-danger": "error",
     "react/jsx-filename-extension": [
       "error",
-      { "extensions": [".js", ".jsx"] }
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
     ],
     "react/require-default-props": "off",
-    "react/self-closing-comp": ["error", { "component": true, "html": false }],
+    "react/self-closing-comp": [
+      "error",
+      {
+        "component": true,
+        "html": false
+      }
+    ],
     "react/jsx-no-target-blank": "error",
-
     "react-hooks/exhaustive-deps": "error",
     "react-hooks/rules-of-hooks": "error"
   }
